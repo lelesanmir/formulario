@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário HTML</title>
+    <a href="formulario.html"></a>
+</head>
+
+<body>
+    
+
+    <h1 style="text-align: center;">Atividade Padrões WEB: Formulário HTML</h1>
+    <h2 style="text-align: center;">Alunos: João Felipe, Johnathan Menezes, Leonardo dos Santos, 
+        Rodrigo Souza e Tiago Sousa</h2><br>
+
+
+    <h3>Para que serve o atributo "placeholder"?</h3>
+    <p>O atributo placeholder é uma pequena frase ou palavra, que tem o intuito de ajudar usuários a entender
+        como devem preencher determinado formulário, inserindo um texto contextual no campo a ser respondido
+    
+        <input type="text" name="nome" value="" placeholder="Seu Nome" /></p>
+
+    <h3> Para que serve o atributo "checked"?</h3>
+
+    <p>O checked atributo é um atributo booleano. Quando presente, ele especifica que um <input>
+        elemento deve ser pré-selecionada (marcada), quando a página é carregada. O checked atributo
+        pode ser usado com <input type="checkbox"> e <input type="radio"> .</p>
+
+    <h3>Para que serve o atributo "value"?</h3>
+
+    <p>Nos inputs text o value é o que a pessoa digita, nos checks e radios são nomes que nós colocamos
+        para fazer sentido quando recebermos essa informação na outra ponta.
+        <form action="demo_form.asp" method="get">
+            Escolha a sua linguagem de programação favorita:
+            <button name="subject" type="submit" value="fav_HTML">HTML</button>
+            <button name="subject" type="submit" value="fav_CSS">CSS</button>
+          </form></p>
+
+    <h3>Que atributo deve ser utilizado para agrupar vários botões de rádio em um formulário de modo
+        que apenas um deles fique marcado de cada vez?</h3>
+
+    <p>Essa é a característica principal deste tipo de campo de um formulário: usamos os radio buttons
+        quando queremos escolher apenas UMA opção, dentre as várias listadas. Ou seja, devemos fazer
+        uma pergunta ou pedir uma informação cuja a resposta seja única.
+        <form>
+            <INPUT TYPE="radio" NAME="OPCAO" VALUE="op1" CHECKED> opção1
+            <INPUT TYPE="radio" NAME="OPCAO" VALUE="op2"> opção2
+            <INPUT TYPE="radio" NAME="OPCAO" VALUE="op3"> opção3
+            </form></p>
+
+    <h3>Para que serve a tag label<label>? Para que serve o atributo "for" nessa tag?</h3>
+
+    <p>A tag <label> se associada a um elemento do formulário permite que você "clique" nesse elemento
+            clicando em sua label. Essa funcionalidade é especialmente útil se for usada em checboxes ,
+            botões e radio buttons . Nesse caso você vai poder acioná-los também clicando nos textos ao invés de TER de
+            clicar nos elementos.
+            <label>Clique em mim <input type="text" id="User" name="Name" /></label></p>
+
+    <h3>Na tag option<option> para que serve o atributo "selected"?</h3>
+    <p>O elemento option permite o atributo selected, que, quando marcado, deixa a opção correspondente
+        pré-selecionada. <label for="instrumento"> Escolha um aluno do grupo</label>
+        2
+        <select name="instrumento" id="instrumento">
+            3
+            <option value="trp">Rodrigo</option>
+            4
+            <option value="tpa">Leonardo</option>
+            5
+            <option value="tbn">Jean</option>
+            6
+            <option value="tub">Jhonathan</option>
+            7
+            <option value="tub">Tiago</option>
+            <option value="tub">João Felipe</option>
+
+        </select>
+    </p>
+    <h3>Nas tags de formulário para que serve o atributo "required"?</h3>
+
+    <p>Required = se true exibe a mensagem de erro caso o usuário deixe em branco, se false não exibe nada.
+         requiredMessage = 
+        Aqui você escreve a mensagem de erro que deverá aparecer caso o usuário deixe o campo em branco.
+        <input name="my_name" required="" type="text"></p>
+
+        <h3>Na tag form<form> para que serve o atributo "action"?</h3>
+
+            <p>O atributo action define o local (uma URL) em que os dados recolhidos do formulário devem ser enviados. 
+                O atributo method define qual o método HTTP para enviar os dados (ele pode ser "GET" ou "POST" 
+                (veja as diferenças aqui).
+                <form action="/pagina-processa-dados-do-form" method="post">
+
+                </form></p>
+<h3>Na tag form<form> para que serve o atributo "method"?</h3>
+
+                <p>Para a tag <form> podem ser atribuídos o atributo method e o atributo action. O atributo action 
+                    define o local (através de uma URL) ao qual serão enviados todos os dados recolhidos do formulário. 
+                    O atributo method define o método HTTP com que o formulário HTML irá lidar com os dados recebidos.
+                    <form method="get|post"></p>
+
+                    <h3>Para que o valor digitado de uma senha não apareça na barra de endereços do navegador, qual deve
+                         ser o valor do atributo "method" na tag form<form>?</h3>
+
+                            <p>Para a tag <form> podem ser atribuídos o atributo method e o atributo action.
+
+                                O atributo action define o local (através de uma URL) ao qual serão enviados todos os dados 
+                                recolhidos do formulário.
+                                
+                                O atributo method define o método HTTP com que o formulário HTML irá lidar com os dados recebidos. 
+                                São eles: o método GET e o método POST. Posteriormente vamos entender melhor como funcionam esses 
+                                dois métodos.
+                                
+                                <h3>Qual valor deve ser informado no atributo "method" na tag <form> em um formulário que será usado
+                                     para fazer upload de arquivos?</h3>
+
+                                     <p>O valor do atributo deve ser um id de um elemento (form)<form> </p>
+                                        <a href="Formulario.html">Formulário</a>
+</body>
+
+</html>
